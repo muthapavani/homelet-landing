@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import "./nav.css";
 import logo from "../../assets/homelet2.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min"; 
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const HeroSection = () => {
   return (
     <section id="nav" className="hero-section">
-     {/*navbar */}
+      {/* Navbar */}
       <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
@@ -28,43 +28,35 @@ const HeroSection = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#nav">
-                  Home
-                </a>
+                <a className="nav-link" href="#nav">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#homes">
-                  Homes
-                </a>
+                <a className="nav-link" href="#homes">Homes</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#cardsl">
-                  Lands
-                </a>
+                <a className="nav-link" href="#cardsl">Lands</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#features">
-                  Features
-                </a>
+                <a className="nav-link" href="#features">Features</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#footer">
-                  Contact
-                </a>
+                <a className="nav-link" href="#footer">Contact</a>
               </li>
             </ul>
-            <a id="login" className="btn custom-login-btn" href="#">
-              Sign In / Login
-            </a>
+
+            {/* Separate Login & Sign Up buttons */}
+            <div className="d-flex gap-2">
+              <Link to="/login" className="btn custom-btn">Login</Link>
+              <Link to="/signup" className="btn custom-btn">Sign Up</Link>
+            </div>
           </div>
         </div>
       </nav>
 
-      {/* banner*/}
+      {/* Banner */}
       <div className="banner-content">
         <h1>
-          Welcome to the
-          <br />
+          Welcome to the<br />
           <span className="head">HomeLet</span>
         </h1>
         <p className="p">Buy, Rent, and Sell Your Property in One Place.</p>
