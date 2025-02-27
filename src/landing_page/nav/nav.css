@@ -58,7 +58,7 @@
   display: block;
   width: 0%;
   height: 3px;
-  background: linear-gradient(0deg, #d35400, #27ae60); 
+  background: linear-gradient(90deg, #d35400, #27ae60); 
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -118,7 +118,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-
+.banner-content input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
 
 .banner-content button {
   padding: 10px 20px;

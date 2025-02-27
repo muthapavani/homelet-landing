@@ -44,7 +44,6 @@ const HeroSection = () => {
               </li>
             </ul>
 
-            {/* Separate Login & Sign Up buttons */}
             <div className="d-flex gap-2">
               <Link to="/login" className="btn custom-btn">Login</Link>
               <Link to="/signup" className="btn custom-btn">Sign Up</Link>
