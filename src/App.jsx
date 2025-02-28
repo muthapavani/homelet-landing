@@ -13,8 +13,8 @@ function App() {
   return (
     <>
   <Landing></Landing>
-  <Signup></Signup>
-  <Login></Login>
+  {/* <Signup></Signup>
+  <Login></Login> */}
   
 
     </>
