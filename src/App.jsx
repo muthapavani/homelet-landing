@@ -1,8 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Landing from './Front_end/pages/ladigpage'
+import Signup from './Front_end/components/Auth/signup'
+import Login from './Front_end/components/Auth/login'
 
-import Landigg from './pages/ladigpage'
-// import Signup from './signup/signin'
+
 
 
 function App() {
@@ -10,7 +12,11 @@ function App() {
 
   return (
     <>
-  <Landigg></Landigg>
+  <Landing></Landing>
+  <Signup></Signup>
+  <Login></Login>
+  
+
     </>
   )
 }
